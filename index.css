@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+
+.pokemon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#charmander{
+    border: solid red 2px;
+}
+
+#squirtle{
+    border: solid blue 2px;
+}
+
+#bulbasaur{
+    border: solid green 2px;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: purple;
+    }
+
+    .pokemon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+}
