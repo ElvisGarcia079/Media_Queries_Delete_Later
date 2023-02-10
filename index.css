@@ -7,14 +7,36 @@ body {
     justify-content: space-evenly;
 }
 
+#charmander{
+    border: solid red 2px;
+}
+
+#squirtle {
+    border: solid blue 2px;
+}
+
+#bulbasaur {
+    border: solid green 2px;
+}
+
 @media screen and (max-width: 500px) {
     body{
         background-color: red;
+    }
+
+    .pokemon{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width: 250px) {
     body{
         background-color: blueviolet;
+    }
+
+    .pokemon{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
