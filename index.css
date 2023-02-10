@@ -1,5 +1,5 @@
-body{
-    background-color: aqua;
+body {
+    background-color: pink;
 }
 
 .pokemon{
@@ -7,14 +7,14 @@ body{
     justify-content: space-evenly;
 }
 
-#charmander{
-    border: solid red 2px;
+@media screen and (max-width: 500px) {
+    body{
+        background-color: red;
+    }
 }
 
-#squirtle{
-    border: solid blue 2px;
-}
-
-#bulbasaur{
-    border: solid green 2px;
+@media screen and (max-width: 250px) {
+    body{
+        background-color: blueviolet;
+    }
 }
